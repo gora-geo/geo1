@@ -1,0 +1,15 @@
+                     {# фрагмен кода который описывает ячейку с товаров(priduct-item-товарная позиция) #}
+                       <div class="col-lg-3"> {# контейнер bootstrap который занимаеть 3 столбца из 12 #}
+                  <div class="product-item">    {#контейнер class="product-item"--описан в stylt.css #}
+                      <div >
+
+                         <a href="{% url 'news' news_image.news.id  %}">   {# ссылка на объект класса product по id #}
+                          <img src="{{ news_image.image.url }}" class="img-responsive" style="width: 200px;height: 200px"> {# ссылка на картинку по юрл #}
+                          </a>
+
+                      </div>
+                  <h4>{{ news_image.news.name }}</h4>   {# вывод имени продукта #}
+
+                      </div>
+                  </div>
+

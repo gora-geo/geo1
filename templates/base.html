@@ -1,0 +1,46 @@
+
+{% load static %} <!--загрузить паку static(load-агрузить)-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Привет</title>
+
+    <!-- Bootstrap(подключение)-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <!-- подключение тектовых стилей гугла-->
+   <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900" rel="stylesheet">
+
+    <!-- Custom styles(подключение пользовательчского стиля из паки static -->
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+
+
+</head>
+<body>
+<div class="wrapper">   <!-- контейнер с классом wrapper(перевод обертка)  -->
+<div class="wrapper-content">  <!-- контейнер с классом wrapper-content(перевод контент оберки)  описанный css-->
+
+        {% include 'navbar.html' %}   <!-- include 'navbar.html' включить base.html кот из файла navbar.html путь файла от этого файла-->
+        {% block content %}
+{#                     <!-- сюда будет вставляться содержимое из других файлов котррые будет заключаться {% block content %}  и {% endblock %}-->#}
+
+        {% endblock content %}
+
+
+</div>
+</div>
+{% include 'footer.html' %}  <!-- include 'footer.html' включить base.html кот из файла footer.html путь файла от этого файла-->
+
+{#    {{ name }}#}
+
+    <!-- jQuery(ссылка на библиотеку) -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+<script src="{% static 'js/script.js' %}"></script>  {# сылка на то что скрипты котррые мы будем подключать из файла static/js/script.js #}
+<script src="{% static 'js/script2.js' %}"></script>
+<script src="{% static 'js/script3.js' %}"></script>
+</body>
+</html>

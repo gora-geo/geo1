@@ -1,0 +1,32 @@
+{% extends 'base.html' %}        {# фрагмент кода который вставляеться в base.html(между{% block content %} и  {% endblock content %}  #}
+{% load static %}                <!--загрузить паку static(load-агрузить)-->
+
+
+{% block content %}   {# начало блока контент #}
+
+
+
+
+ <div class="section section2 totalstation-container" style="overflow: auto; padding-bottom: 180px;">
+
+        <div class="container" style="overflow: auto; padding-bottom: 180px;">
+
+            <div class="row">
+
+               <div class="col-lg-12">
+                   <h1 class="text-center" >
+                       <a name="1"></a>
+                      Новости геодезии
+                   </h1>
+
+                   {% for news_image in news_images reversed %}
+                 {% include 'home/news_item.html' %}
+                {% endfor %}
+
+               </div>
+
+            </div>
+        </div>
+  </div>
+
+{% endblock %}
