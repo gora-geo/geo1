@@ -1,0 +1,588 @@
+[
+{
+   "model": "contenttypes.contenttype",
+   "pk": 1,
+   "fields": {
+      "app_label": "admin",
+      "model": "logentry"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 2,
+   "fields": {
+      "app_label": "auth",
+      "model": "user"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 3,
+   "fields": {
+      "app_label": "auth",
+      "model": "permission"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 4,
+   "fields": {
+      "app_label": "auth",
+      "model": "group"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 5,
+   "fields": {
+      "app_label": "contenttypes",
+      "model": "contenttype"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 6,
+   "fields": {
+      "app_label": "sessions",
+      "model": "session"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 7,
+   "fields": {
+      "app_label": "news",
+      "model": "news"
+   }
+},
+{
+   "model": "contenttypes.contenttype",
+   "pk": 8,
+   "fields": {
+      "app_label": "news",
+      "model": "newsimage"
+   }
+},
+{
+   "model": "sessions.session",
+   "pk": "4o8knk76lqgo4q4r4j5b4nk9hyyfhcaa",
+   "fields": {
+      "session_data": "NDhjYmM4MGMwMDc2MGY0M2YyOTVlYjExNDJjYzU1ZTU3YjRjYjBlZDp7Il9hdXRoX3VzZXJfaGFzaCI6IjZmNmZiODIxOTY5N2VjZTQ4ZDhhNTVjMWM5NzFlZTg4MDU4YmE5OWUiLCJfYXV0aF91c2VyX2lkIjoiMSIsIl9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIn0=",
+      "expire_date": "2018-01-15T15:30:14.308Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 1,
+   "fields": {
+      "name": "\u043d\u043e\u0432\u044b\u0439",
+      "description": "\u043d\u043e\u0432\u043e\u0441\u0442\u044c",
+      "created": "2018-01-01T15:48:09.784Z",
+      "updated": "2018-01-01T15:48:09.784Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 2,
+   "fields": {
+      "name": "\u0442\u0430\u0445",
+      "description": "\u0432\u044b\u0449\u043b\u0438 \u043d\u043e\u0432\u044b\u0435 \u0442\u0430\u0445\u0435\u043e\u043c\u0435\u0442\u0440\u044b",
+      "created": "2018-01-02T08:33:21.344Z",
+      "updated": "2018-01-02T08:33:21.344Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 3,
+   "fields": {
+      "name": "ghbv",
+      "description": "vvbcmvc",
+      "created": "2018-01-02T14:15:46.134Z",
+      "updated": "2018-01-02T14:15:46.134Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 4,
+   "fields": {
+      "name": "rtyyhn",
+      "description": "gkcc",
+      "created": "2018-01-02T14:16:06.904Z",
+      "updated": "2018-01-02T14:16:06.904Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 5,
+   "fields": {
+      "name": "xjdtxd",
+      "description": "jfxjf",
+      "created": "2018-01-02T14:16:29.019Z",
+      "updated": "2018-01-02T14:16:29.019Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 6,
+   "fields": {
+      "name": "rhd",
+      "description": "gxmfm",
+      "created": "2018-01-02T14:25:13.296Z",
+      "updated": "2018-01-02T14:25:13.296Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 7,
+   "fields": {
+      "name": "klnl",
+      "description": "n,lknm,l",
+      "created": "2018-01-02T14:26:06.585Z",
+      "updated": "2018-01-02T14:26:06.585Z"
+   }
+},
+{
+   "model": "news.news",
+   "pk": 8,
+   "fields": {
+      "name": "rrrdjudtjkfkfklflflflffy djjjdjdjdjdjddjdjd",
+      "description": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd",
+      "created": "2018-01-02T14:27:35.476Z",
+      "updated": "2018-01-02T14:27:35.476Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 1,
+   "fields": {
+      "news": 1,
+      "image": "products_images/Leica_TS06plus_R500_5_Vzilt7q.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-01T15:48:09.803Z",
+      "updated": "2018-01-01T15:48:09.803Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 2,
+   "fields": {
+      "news": 2,
+      "image": "products_images/Trimble_SX10_IE1MAIm.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T08:33:21.356Z",
+      "updated": "2018-01-02T08:33:21.356Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 3,
+   "fields": {
+      "news": 3,
+      "image": "products_images/Bosch_DLE_40_pWLzZ36.jpg",
+      "is_main": false,
+      "is_active": true,
+      "created": "2018-01-02T14:15:46.139Z",
+      "updated": "2018-01-02T14:15:46.139Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 4,
+   "fields": {
+      "news": 4,
+      "image": "products_images/RTK_\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442_Trimble_R8s__R8s_GSM__Slate_TzL606V.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T14:16:06.910Z",
+      "updated": "2018-01-02T14:16:06.910Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 5,
+   "fields": {
+      "news": 5,
+      "image": "products_images/Sokkia_SDL30_Vsi48uG.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T14:16:29.024Z",
+      "updated": "2018-01-02T14:16:29.024Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 6,
+   "fields": {
+      "news": 6,
+      "image": "products_images/RTK_\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442_Leica_GS14__GS14_GSM__CS10_ms98Ev7.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T14:25:13.302Z",
+      "updated": "2018-01-02T14:25:13.304Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 7,
+   "fields": {
+      "news": 7,
+      "image": "products_images/RGK_D120_esdGIGN.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T14:26:06.591Z",
+      "updated": "2018-01-02T14:26:06.591Z"
+   }
+},
+{
+   "model": "news.newsimage",
+   "pk": 8,
+   "fields": {
+      "news": 8,
+      "image": "products_images/RTK_\u043a\u043e\u043c\u043f\u043b\u0435\u043a\u0442_Trimble_R8s__R8s_GSM__Slate_CxXH67B.jpg",
+      "is_main": true,
+      "is_active": true,
+      "created": "2018-01-02T14:27:35.481Z",
+      "updated": "2018-01-02T14:27:35.481Z"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 1,
+   "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 2,
+   "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 3,
+   "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 4,
+   "fields": {
+      "name": "Can add user",
+      "content_type": 2,
+      "codename": "add_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 5,
+   "fields": {
+      "name": "Can change user",
+      "content_type": 2,
+      "codename": "change_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 6,
+   "fields": {
+      "name": "Can delete user",
+      "content_type": 2,
+      "codename": "delete_user"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 7,
+   "fields": {
+      "name": "Can add permission",
+      "content_type": 3,
+      "codename": "add_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 8,
+   "fields": {
+      "name": "Can change permission",
+      "content_type": 3,
+      "codename": "change_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 9,
+   "fields": {
+      "name": "Can delete permission",
+      "content_type": 3,
+      "codename": "delete_permission"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 10,
+   "fields": {
+      "name": "Can add group",
+      "content_type": 4,
+      "codename": "add_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 11,
+   "fields": {
+      "name": "Can change group",
+      "content_type": 4,
+      "codename": "change_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 12,
+   "fields": {
+      "name": "Can delete group",
+      "content_type": 4,
+      "codename": "delete_group"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 13,
+   "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 14,
+   "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 15,
+   "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 16,
+   "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 17,
+   "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 18,
+   "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 19,
+   "fields": {
+      "name": "Can add \u041d\u043e\u0432\u043e\u0441\u0442\u044c",
+      "content_type": 7,
+      "codename": "add_news"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 20,
+   "fields": {
+      "name": "Can change \u041d\u043e\u0432\u043e\u0441\u0442\u044c",
+      "content_type": 7,
+      "codename": "change_news"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 21,
+   "fields": {
+      "name": "Can delete \u041d\u043e\u0432\u043e\u0441\u0442\u044c",
+      "content_type": 7,
+      "codename": "delete_news"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 22,
+   "fields": {
+      "name": "Can add \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "add_newsimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 23,
+   "fields": {
+      "name": "Can change \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "change_newsimage"
+   }
+},
+{
+   "model": "auth.permission",
+   "pk": 24,
+   "fields": {
+      "name": "Can delete \u0424\u043e\u0442\u043e\u0433\u0440\u0430\u0444\u0438\u044f",
+      "content_type": 8,
+      "codename": "delete_newsimage"
+   }
+},
+{
+   "model": "auth.user",
+   "pk": 1,
+   "fields": {
+      "password": "pbkdf2_sha256$36000$UP6dNO34DeyG$8bClRYpVAUPr/UJLVz0RBll8L+zj3Ft3WECgWxI2kjQ=",
+      "last_login": "2018-01-01T15:30:14.217Z",
+      "is_superuser": true,
+      "username": "gora",
+      "first_name": "",
+      "last_name": "",
+      "email": "safonov-geprgiy@mail.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2018-01-01T15:29:21.422Z",
+      "groups": [],
+      "user_permissions": []
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 1,
+   "fields": {
+      "action_time": "2018-01-01T15:48:09.804Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "\u043d\u043e\u0432\u044b\u0439",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"object\": \"1\", \"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 2,
+   "fields": {
+      "action_time": "2018-01-02T08:33:21.357Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "2",
+      "object_repr": "\u0442\u0430\u0445",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"2\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 3,
+   "fields": {
+      "action_time": "2018-01-02T14:15:46.140Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "3",
+      "object_repr": "ghbv",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"3\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 4,
+   "fields": {
+      "action_time": "2018-01-02T14:16:06.912Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "4",
+      "object_repr": "rtyyhn",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"4\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 5,
+   "fields": {
+      "action_time": "2018-01-02T14:16:29.026Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "5",
+      "object_repr": "xjdtxd",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"5\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 6,
+   "fields": {
+      "action_time": "2018-01-02T14:25:13.306Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "6",
+      "object_repr": "rhd",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"6\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 7,
+   "fields": {
+      "action_time": "2018-01-02T14:26:06.592Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "7",
+      "object_repr": "klnl",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"7\"}}]"
+   }
+},
+{
+   "model": "admin.logentry",
+   "pk": 8,
+   "fields": {
+      "action_time": "2018-01-02T14:27:35.482Z",
+      "user": 1,
+      "content_type": 7,
+      "object_id": "8",
+      "object_repr": "rrrdjudtjkfkfklflflflffy djjjdjdjdjdjddjdjd",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}, {\"added\": {\"name\": \"\\u0424\\u043e\\u0442\\u043e\\u0433\\u0440\\u0430\\u0444\\u0438\\u044f\", \"object\": \"8\"}}]"
+   }
+}
+]
