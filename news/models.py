@@ -16,7 +16,7 @@ class News(models.Model):
         verbose_name_plural = 'Новости'
 
 class NewsImage(models.Model):
-    news = models.ForeignKey(News, blank=True, null=True, default=None,verbose_name='Название')
+    news = models.ForeignKey(News, blank=True,on_delete=models.DO_NOTHING, null=True, default=None,verbose_name='Название')
     image = models.ImageField(upload_to='products_images/',verbose_name='Картинка')  #путь к картинке в папек static/products_images/
     is_main=models.BooleanField(default=False,verbose_name='Главная')   #поле модели(таблицы)-главная тоест какая картинка если их несколько будет выводиться первой
     is_active = models.BooleanField(default=True,verbose_name='активный')  #активна ли картинка
